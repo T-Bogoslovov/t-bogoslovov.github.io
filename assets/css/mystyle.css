@@ -157,16 +157,22 @@ div#preload {
 section:not(:first-child) {
   padding: 50px;
 }
+#section-hero-unit{
+  background-color: #f8f8f8;
+}
 #section-content {
   background-color: #01e9bd;
   height: 500px;
 }
+/* .monospace-font{
+  font-family: monospace;
+} */
 #section-content2 {
-  background-color: #4d4d4d;
+  background-color: #616bb0;
   height: 500px;
 }
 #section-content3 {
-  background-color: #007cde;
+  background-color: #64e4ea;
   height: 500px;
 }
 /* FONTS */
@@ -228,7 +234,7 @@ hr.hr-text {
 hr.hr-text::before {
   content: attr(data-content);
   display: inline-block;
-  background: rgba(255, 255, 255, 1);
+  background: #f8f8f8;
   font-weight: BOLD;
   font-size: 1.5rem;
   color: linear-gradient(to top, #01e9bd 0%, #007cde 150%);
@@ -334,7 +340,7 @@ hr.hr-text::before {
 /* PC Screen */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   body {
-    padding-top: 9rem;
+    padding-top: 8rem;
   }
   .jumbotron {
     height: 17rem;
@@ -373,7 +379,7 @@ hr.hr-text::before {
 /* XLARGE TV  */
 @media (min-width: 1200px) {
   body {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
   .jumbotron {
     height: 17rem;
