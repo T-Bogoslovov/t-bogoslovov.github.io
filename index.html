@@ -16,13 +16,14 @@
   <title>Welcome to my Portfolio page!</title>
 </head>
 
-<body>
+<body id="page-wrap">
   <!-- Navigation -->
   <section id="section-nav">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark h-auto p-3">
 
 
-      <a class="navbar-brand m-0" href="#"><img id="brand-logo" class="img-fluid w-50" src="assets/images/tb-logo.png">
+      <a class="navbar-brand m-0" href="#top"><img id="brand-logo" class="img-fluid w-50"
+          src="assets/images/tb-logo.png">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,19 +32,19 @@
 
 
 
-      <div class="collapse navbar-collapse bg-transparent" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+      <div class="collapse navbar-collapse bg-transparent lead" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item">
-            <a class="nav-link mx-2" href="index.html#section-hero-unit">Home</a>
+            <a class="nav-link mx-2" href="#section-hero-unit">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-1" href="index.html#section-content">About</a>
+            <a class="nav-link mx-1" href="#section-content">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-1" href="index.html#section-content2">Skills</a>
+            <a class="nav-link mx-1" href="#section-content2">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-1" href="index.html#section-content3">Contacts</a>
+            <a class="nav-link mx-1" href="#section-content3">Contacts</a>
           </li>
         </ul>
       </div>
@@ -111,6 +112,7 @@
                     Lisboa/Portugal</em></li>
                 <li class="list-unstyled">
                   <div class="row justify-content-center">
+                    <!-- SVG RecodMe -->
                     <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 157">
                       <defs>
                         <style>
@@ -174,38 +176,41 @@
   <section class="d-flex" id="section-content">
     <div class="container-fluid align-self-center text-center">
 
-      <i class="fal fa-hard-hat fa-10x"></i>
-      <h1 class="display-1 w-100 monospace-font">Under construction </h1>
+      <i class="fal fa-hard-hat fa-5x"></i>
+      <h1 class="display-4 w-100 monospace-font">Under construction </h1>
     </div>
   </section>
 
   <section class="d-flex text-white" id="section-content2">
     <div class="container-fluid align-self-center text-center">
 
-      <i class="fal fa-wrench fa-10x"></i>
-      <h1 class="display-1 w-100 monospace-font">Just getting the hang of it... </h1>
+      <i class="fal fa-wrench fa-5x"></i>
+      <h1 class="display-4 w-100 monospace-font">Just getting the hang of it... </h1>
     </div>
   </section>
-  
+
   <section class="d-flex" id="section-content3">
     <div class="container-fluid align-self-center text-center">
 
-      <i class="fal fa-construction fa-10x"></i>
-      <h1 class="display-1 w-100 monospace-font">We are almost there, keep digging! </h1>
+      <i class="fal fa-construction fa-5x"></i>
+      <h1 class="display-4 w-100 monospace-font">We are almost there, keep digging! </h1>
     </div>
   </section>
 
   <footer class="d-block bg-dark row text-center">
     <h4 class="pt-5 text-white">Good job, you've made it to the end! 🏆</h4>
-      <div class="col-6 m-auto pb-5 text-white-50">&copy;Tihomir Bogoslovov - 2020</div>
+    <div class="col-6 m-auto pb-5 text-white-50">&copy;Tihomir Bogoslovov - 2020</div>
   </footer>
   <!-- Optional JavaScript -->
   <div id="preload">
     <img src="assets/images/logo-hero-2.png" />
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/myscript.js"></script>
 </body>
